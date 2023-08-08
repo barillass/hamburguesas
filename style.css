@@ -1,0 +1,46 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #E8FFCE; /* Color de fondo */
+}
+
+.container {
+    background-color: #ACFADF; /* Color del cuadro */
+    padding: 20px;
+    border-radius: 15px; /* Esquinas redondeadas */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #7C73C0; /* Color del texto */
+}
+
+p {
+    color: #94ADD7; 
+}
+
+samp {
+    color: #94ADD7; /* Color del texto */
+}
+
+select,
+input {
+    margin: 5px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 8px 15px;
+    background-color: #7C73C0; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
